@@ -21,7 +21,7 @@ $ bin/cake server
 ## アクセス方法
 
 1. ブラウザを起動
-2. アドレス欄に「http://localhost:8765/keihis」と入力して経費一覧を表示
+2. アドレス欄に「[http://localhost:8765/keihis](http://localhost:8765/keihis)」と入力して経費一覧を表示
 
 ## データベースの構造
 
