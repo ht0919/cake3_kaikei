@@ -1,0 +1,25 @@
+CREATE TABLE `kamokus` (
+    `id`    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    `kamokumei`    TEXT NOT NULL
+);
+
+CREATE TABLE `keihis` (
+    `id`    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    `date`    DATE NOT NULL,
+    `kamoku_id`    INTEGER NOT NULL,
+    `tekiyou`    TEXT NOT NULL,
+    `kingaku`    INTEGER NOT NULL
+);
+
+INSERT INTO kamokus (kamokumei) values('—·”ïŒğ’Ê”ï');
+INSERT INTO kamokus (kamokumei) values('Á–Õ•i”ï');
+INSERT INTO kamokus (kamokumei) values('V•·}‘”ï');
+INSERT INTO kamokus (kamokumei) values('G”ï');
+INSERT INTO kamokus (kamokumei) values('Ú‘ÒŒğÛ”ï');
+INSERT INTO kamokus (kamokumei) values('…“¹Œõ”M”ï');
+INSERT INTO kamokus (kamokumei) values('’ÊM”ï');
+INSERT INTO kamokus (kamokumei) values('Ô—¼”ï');
+INSERT INTO kamokus (kamokumei) values('x•¥—˜‘§');
+INSERT INTO kamokus (kamokumei) values('–‹Æå‘İ');
+INSERT INTO kamokus (kamokumei) values('Œ»‹à');
+INSERT INTO kamokus (kamokumei) values('•’Ê—a‹à');
